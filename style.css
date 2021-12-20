@@ -1,0 +1,93 @@
+html{
+  background: url(redforest.jpg) no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size: cover;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Risque', cursive;
+}
+nav{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height: 189px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background: rgba(0,0,0,0.6);
+  border-bottom: 0;
+}
+nav .logo{
+  padding: 22px 20px;
+  height: 80px;
+  float: left;
+  font-size: 96px;
+  color: #fff;
+}
+nav ul{
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li a{
+color: #fff;
+padding: 12px 30px;
+font-family: Risque;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+text-decoration: none;
+line-height: 180px;
+
+}
+nav ul li a:hover{
+  background: rgba(202, 135, 130, 1);;
+  border-radius: 6px;
+  color:rgba(0,0,0,0.7);
+}
+
+
+.granny {
+  position: fixed;
+width: 894px;
+height: 465px;
+left: 900px;
+top: 360px;
+background: url("redgranny.jpg");
+
+}
+
+.scufnet {
+  position: absolute;
+width: 440px;
+height: 551px;
+left: 2000px;
+top: 600px;
+
+background: url(scufnet.png);
+}
+.bed {
+  position: absolute;
+width: 553px;
+height: 627px;
+left: 55px;
+top: 282px;
+
+background: url(redatbed.jpg);
+}
+.mom {
+  position: absolute;
+width: 206px;
+height: 244px;
+left: 2200px;
+top: 282px;
+
+background: url(redandmom.jpg);
+}
